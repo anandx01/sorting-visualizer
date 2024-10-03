@@ -1,0 +1,154 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+nav {
+  background-color: #2c2b2b; /* Darker background */
+  color: #f0f0f0; /* Lighter text color */
+  display: grid;
+  grid-template-columns: 30% 60%;
+  column-gap: 10%;
+  padding: 2% 5%; /* Slightly reduced padding */
+}
+
+nav .array-inputs {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  place-content: center;
+  padding: 3% 0%; /* Adjusted padding */
+}
+
+nav .array-inputs #a_size,
+nav .array-inputs #a_speed {
+  padding: 3% 0%; /* Adjusted padding */
+}
+
+nav .array-inputs #a_generate {
+  background-color: #4a90e2; /* Blue background */
+  border: none;
+  outline: none;
+  color: white;
+  padding: 4% 0%;
+  padding-left: 15%; /* Reduced padding-left */
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+nav .array-inputs #a_generate:hover {
+  cursor: pointer;
+  background-color: #357ab8; /* Darker blue on hover */
+}
+
+nav .header_right {
+  display: flex;
+  flex-direction: column;
+}
+
+nav .header_right .nav-heading {
+  display: inline-block;
+  font-size: xxx-large;
+  padding: 2% 0%; /* Reduced padding */
+  color: #e8e8e8; /* Light heading color */
+}
+
+nav .header_right .algos {
+  display: grid;
+  grid-template-columns: repeat(6, 16.66667%);
+  place-content: center;
+  padding: 2% 0%;
+}
+
+nav .header_right .algos button {
+  background-color: #3b3a3a; /* Button background */
+  border: none;
+  color: white;
+  outline: none;
+  padding: 5% 0%;
+  font-size: x-large;
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+nav .header_right .algos button:hover {
+  background-color: #2980b9; /* Light blue on hover */
+  cursor: pointer;
+}
+
+nav .header_right .algos .butt_locked {
+  background-color: #3b3a3a; /* Consistent locked button style */
+  cursor: pointer;
+}
+
+nav .header_right .algos .butt_selected {
+  background-color: #2ecc71; /* Green background for selected */
+  color: white;
+}
+
+nav .header_right .algos .butt_unselected:hover {
+  background-color: #3498db; /* Light blue on hover */
+  cursor: pointer;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+}
+
+section .Complexity_Containers {
+  margin-top: 15%;
+}
+
+section .Complexity_Containers .Pair_Definitions {
+  margin-top: 15%;
+}
+
+section .Complexity_Containers .Pair_Definitions p {
+  display: inline;
+}
+
+section .Complexity_Containers .Pair_Definitions p.Sub_Heading {
+  font-size: medium;
+  text-transform: none;
+  color: #bdc3c7; /* Light gray for sub-heading */
+}
+
+section #Info_Cont1,
+section #Info_Cont2 {
+  padding: 15% 10%; /* Adjusted padding */
+}
+
+section #Info_Cont1 h3,
+section #Info_Cont2 h3 {
+  text-decoration: underline;
+  color: #ecf0f1; /* Underlined text color */
+}
+
+section #array_container {
+  display: flex;
+  width: 100%;
+  height: 70vh;
+}
+
+.hide {
+  display: none;
+}
+
+/*
+@media (max-width: 480px)//Mobiles
+{
+    
+}
+
+@media (min-width: 481px) and (max-width: 1250px)//Tablets
+{
+
+}
+
+@media (min-width: 1251px)//Laptops and up
+{
+
+}
+*/
